@@ -4,10 +4,6 @@ firewall:
       ips:
         delete:
         insert:
-    beats_endpoint:
-      ips:
-        delete:
-        insert:
     beats_endpoint_ssl:
       ips:
         delete:

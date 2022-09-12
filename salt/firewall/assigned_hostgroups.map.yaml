@@ -29,7 +29,6 @@ role:
               - {{ portgroups.sensoroni }}
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
@@ -44,9 +43,6 @@ role:
           self:
             portgroups:
               - {{ portgroups.syslog}}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}
@@ -111,7 +107,6 @@ role:
               {% endif %}
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
@@ -131,9 +126,6 @@ role:
           syslog:
             portgroups:
               - {{ portgroups.syslog }}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}
@@ -186,7 +178,6 @@ role:
               - {{ portgroups.yum }}
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
@@ -201,9 +192,6 @@ role:
           self:
             portgroups:
               - {{ portgroups.syslog}}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}
@@ -263,7 +251,6 @@ role:
               - {{ portgroups.yum }}              
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
@@ -278,9 +265,6 @@ role:
           self:
             portgroups:
               - {{ portgroups.syslog}}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}
@@ -341,7 +325,6 @@ role:
               - {{ portgroups.sensoroni }}
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
@@ -350,9 +333,6 @@ role:
           self:
             portgroups:
               - {{ portgroups.syslog}}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           analyst:
             portgroups:
               - {{ portgroups.nginx }}
@@ -474,15 +454,11 @@ role:
               - {{ portgroups.sensoroni }}
           sensor:
             portgroups:
-              - {{ portgroups.beats_5044 }}
               - {{ portgroups.beats_5644 }}
           search_node:
             portgroups:
               - {{ portgroups.redis }}
               - {{ portgroups.elasticsearch_node }}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}
@@ -526,9 +502,6 @@ role:
           syslog:
             portgroups:
               - {{ portgroups.syslog }}
-          beats_endpoint:
-            portgroups:
-              - {{ portgroups.beats_5044 }}
           beats_endpoint_ssl:
             portgroups:
               - {{ portgroups.beats_5644 }}

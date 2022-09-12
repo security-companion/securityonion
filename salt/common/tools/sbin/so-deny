@@ -21,7 +21,6 @@ from xml.dom import minidom
 LOCAL_SALT_DIR='/opt/so/saltstack/local'
 VALID_ROLES = {
   'a': { 'role': 'analyst','desc': 'Analyst - 80/tcp, 443/tcp' },
-  'b': { 'role': 'beats_endpoint', 'desc': 'Logstash Beat - 5044/tcp' },
   'e': { 'role': 'elasticsearch_rest', 'desc': 'Elasticsearch REST API - 9200/tcp' },
   'f': { 'role': 'strelka_frontend', 'desc': 'Strelka frontend - 57314/tcp' },
   's': { 'role': 'syslog', 'desc': 'Syslog device - 514/tcp/udp' },

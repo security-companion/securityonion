@@ -21,9 +21,6 @@ firewall:
       agrules:
         tcp:
           - 7788
-      beats_5044:
-        tcp:
-          - 5044
       beats_5644:
         tcp:
           - 5644
